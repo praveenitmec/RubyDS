@@ -60,7 +60,7 @@ class LinkedList
 
   def last
     raise "Lst is empty" if empty?
-    @tail.vaue
+    @tail.value
   end
 
   def inser_after(value, prev)
@@ -99,6 +99,9 @@ ll.insert(2)
 ll.insert(3)
 ll.insert(4)
 ll.insert(5)
+puts "Head and Tail"
+puts ll.first
+puts ll.last
 puts "After Insertng first 5 elements"
 puts ll.get_list
 ll.inser_after(6,2)
